@@ -1,0 +1,329 @@
+/* Coded by Yabesh */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+ .container1{
+    max-width: 1440px;
+    position: relative;
+ }
+ .sidebox{
+    background-image: linear-gradient(hsl(293,100%,63%),hsl(264,100%,61%));
+    max-width: 500px;
+    height: 650px;
+    border-radius: 0px 0px 50% 50%;
+    transform: translate(-120px);
+ }
+ .sidebox1{
+   position: absolute;
+   margin-top: -532px;
+   margin-left: 1000px;   
+   background-image: linear-gradient(hsl(293,100%,63%),hsl(264,100%,61%));
+   width: 500px;
+   height: 650px;
+   border-radius: 0px 0px 50% 50%; 
+  transform: rotate(180deg);  
+  opacity: 5%;
+}
+
+ .phonebox1{
+    width: 270px;
+    height: 500px;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 317px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; 
+    
+ }
+ .phonebox2{
+    width: 250px;
+    height: 480px;
+    background-color:hsl(270, 20%, 96%);
+    border-radius: 30px;
+    margin: auto;
+    
+   
+ }
+ .notch{
+    width: 130px;
+    height: 35px;
+    background-color:#fff;
+    border-radius:50px 50px;
+    position: absolute;
+    top: 0;
+    left: 65px;
+ }
+ .phonebox3{
+    background-image: linear-gradient(to left,hsl(293,100%,63%),hsl(264,100%,61%));
+    width: 100%;
+    height: 70px;
+    border-radius: 30px 30px 10px 10px ;
+
+ }
+
+ 
+ .typebx{
+   position: absolute;
+   bottom: 20px;
+   left: 15px;
+    padding: 10px;
+    width: 240px;
+    border-radius: 50px 50px;
+    border: none;
+    padding-left: 20px;
+    
+   
+ }
+.symbolbtn{
+  font-size: medium;
+  position: absolute;
+  margin-top:20px ;
+  margin-left: 205px;
+  background-color:hsl(271, 36%, 24%);
+  padding: 9px;
+  border-radius: 50%;
+  color: #fff;
+  
+ }
+ .heading{
+   display: flex;
+   
+   padding-top: 30px;
+ }
+ .upleft{
+   color: #fff;
+   font-size: small;
+   padding-left: 10px;
+   padding-top: 5px;
+ }
+ .dp{
+   border-radius: 50%;
+   height: 30px;
+   padding-left: 5px;
+ 
+ }
+ .dots{
+   position: absolute;
+    right: 25px;
+    font-size: 18px;
+    color: #fff;
+ }
+.name{
+   color: #fff;
+   padding-left: 10px;
+   padding-bottom: 20px;
+  
+}
+.secname{
+   position: absolute;
+   top: 60px;
+   left: 78px;
+   font-size: 10px;
+   color: #fff;
+   
+}
+.p1{
+   font-size: 8px;
+   width: 155px;  
+   background-color:hsl(286, 58%, 93%); 
+   color: hsl(289, 81%, 61%);
+   padding: 5px;
+   border-radius: 10px 10px 10px 5px;
+   margin-left:5px;
+   margin-top: 5px;
+}
+.p2{
+   font-size: 8px;
+   width: 155px;  
+   background-color:hsl(286, 58%, 93%); 
+   color: hsl(289, 81%, 61%);
+   padding: 5px;
+   border-radius: 10px 10px 10px 5px;
+  margin-left: 5px;
+  margin-top: -3px;
+}
+.images{
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+   right: 15px;
+   column-gap: 5px;
+}
+.img1{
+   height: 35px;
+   border-radius: 12px;
+}
+.img2{
+   height: 35px;
+   border-radius: 12px;
+}
+.img3{
+   height: 35px;
+   border-radius: 12px;
+}
+.midpara{
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   right: 15px;
+   top: 210px;
+}
+.p3{
+   font-size: 8px;
+   width: 155px;  
+   background-color:#fff;
+   color: hsl(271, 15%, 43%);
+   padding: 5px;
+   border-radius: 10px 10px 5px 10px;
+   margin-top: 2px;
+   
+} 
+
+.p4{
+   font-size: 8px;
+   width: 80px;
+   margin-left: 70px;  
+   background-color:#fff; 
+   color: hsl(271, 15%, 43%);
+   padding: 5px;
+   border-radius: 10px 10px 5px 10px;
+   margin-top: -2px;
+   
+}
+.p5{
+   font-size: 8px;
+   width: 155px;  
+   background-color:hsl(286, 58%, 93%); 
+   color: hsl(289, 81%, 61%);
+   padding: 5px;
+   border-radius: 10px 10px 10px 5px;
+  margin-left: 5px;
+  margin-top: 125px;
+}
+.moneyboxes{
+   display: flex;
+   flex-direction: column;
+   row-gap: 5px;
+}
+
+.box1{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-image: linear-gradient(to right,hsl(293,100%,63%),hsl(264,100%,61%));
+   border-radius: 10px 10px 10px 5px;
+   color: #fff;
+   width: 190px;
+   height: 40px;
+   padding-top: 7px;
+   margin-left: 5px;
+}
+.dollar1{
+  position: absolute;
+  right: 90px;
+  font-weight: 500;
+}
+.dollar2{
+   position: absolute;
+   right: 90px;
+   font-weight: 500;
+}
+.loader1{
+   position: absolute;
+   left: 20px;
+   bottom: 135px;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   border: 1px solid hsl(289, 86%, 73%);
+   
+}
+.loader2{
+   position: absolute;
+   left: 20px;
+   bottom: 90px;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   border: 1px solid hsl(289, 86%, 73%);
+   
+}
+.box2{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-image: linear-gradient(to right,hsl(293,100%,63%),hsl(264,100%,61%));
+   border-radius: 10px 10px 10px 5px;
+   color: #fff;
+   width: 190px;
+   height: 40px;
+   padding-top: 7px;
+   margin-left: 5px;
+}
+.minitxt1{
+  font-size: 8px;
+  padding-left: 35px;
+}
+.minitxt2{
+   font-size: 8px;
+   padding-left: 35px;
+}
+.mainpara{
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   height: 100px;
+   position: absolute;
+   left: 700px;
+   top: 220px;
+   row-gap: 15px;
+
+}
+.heading1 h1{
+   color: hsl(271, 36%, 24%);
+   
+}
+.subhead .para{
+   line-height: 25px;
+   color: hsl(270, 7%, 64%);
+}
+
+/* Mobile Responsive 375PX */
+
+@media (max-width:375px){
+  .sidebox{
+   transform: translate(-190px);
+   height: 450px;
+  }
+  .footer{
+   display: none;
+  }
+  .phonebox1{
+   margin-left: -265px;
+   margin-top: -50px;
+  }
+  .mainpara{
+   width: 300px;
+   margin-left: -650px;
+   margin-top: 350px;
+
+  }
+  
+
+}
